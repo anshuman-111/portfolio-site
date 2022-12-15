@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {FaBars , FaTimes} from "react-icons/fa"
-import logo from '../assets/logo.gif'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
@@ -18,10 +18,10 @@ const Navbar = () => {
             link: "Skills"
         },
         {   id : 4,
-            link: "Contact"
+            link: "About"
         },
         {   id : 5,
-            link: "About"
+            link: "Contact"
         },
     ]
 
@@ -36,18 +36,33 @@ const Navbar = () => {
 
         <ul className='hidden md:flex'>
             {links.map(({id, link}) => (
-                <li key={id} className='px-4 cursor-pointer hover:scale-105 duration-200 text-gray-400'>{link}</li>
+                 <Link 
+                 to={link}
+                 smooth
+                 duration={500}
+                 ><li key={id} className='px-4 cursor-pointer hover:text-black hover:bg-green-200 rounded-xl duration-200 h-16 w-28 flex justify-center items-center text-gray-400'>
+                    {link}
+                </li>
+           </Link>
+                
             ))}
         </ul>
 
-        <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
+        <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-4 z-10 text-white md:hidden'>
             {nav ? <FaTimes size={30}/> : <FaBars size={30} />}
         </div>
 
         {nav && (
             <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-slate-600 text-gray-500'>
             {links.map(({id, link}) => (
+                <Link 
+                onClick={()=>setNav(false)}
+                to={link}
+                smooth
+                duration={500}
+                >
                 <li key={id} className='cursor-pointer py-6 px-4 text-4xl'>{link}</li>
+                </Link>
             ))}
         </ul>
 

@@ -93,9 +93,9 @@ const Tech = () => {
 
 
   return (
-    <div name="tech" 
-    className=' bg-gradient-to-b from-black to-slate-600 w-full h-screen'>
-        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+    <div name="Skills" 
+    className=' bg-gradient-to-b p-4 from-black to-slate-600 w-full h-screen'>
+        <div className='max-w-screen-lg my-12 mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div className='mt-40'>
                 <p className=' text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Skills</p>
             </div>
