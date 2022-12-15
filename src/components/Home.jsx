@@ -15,11 +15,11 @@ const Home = () => {
             className='flex flex-col justify-center h-full'>
 
                 <h2 
-                className='text-4xl sm:text-7xl font-bold text-white px-4'> 
+                className='text-4xl sm:text-7xl font-bold text-white px-4 my-4'> 
                 Data Analyst
                 </h2>
                 <h2 
-                className='text-4xl sm:text-7xl font-bold text-white px-4'> 
+                className='text-4xl sm:text-7xl font-bold text-white px-4 my-4'> 
                 Full-Stack Developer 
                 </h2>
                 <p 
