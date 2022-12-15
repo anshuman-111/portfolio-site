@@ -23,7 +23,7 @@ const Home = () => {
                 Full-Stack Developer 
                 </h2>
                 <p 
-                className=' text-gray-400 py-4 max-w-md px-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates velit alias porro quisquam expedita, dignissimos fugiat dolor quas distinctio reiciendis.</p>
+                className=' text-gray-400 py-4 max-w-md px-4'></p>
 
                 <div className=' px-4'>
                     <button 
