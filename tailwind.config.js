@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       monts : ["Montserrat"],
-      yeseva : ["Yeseva One"]
+      yeseva : ["Yeseva One"],
+      navlogo: ["Sacramento"]
     }
   },
   plugins: [],

@@ -8,13 +8,12 @@ const About = () => {
         <h2 className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline text-white'>About</h2>
         </div>
         <div className='mt-5'>
-        <p className='text-md text-white mb-2'>
-            My name is Anshuman Gupta. I am a graduate from the University of Wollongong with 
-            Masters in Computer Science (Software Engineering Major) from  in December 2022. Now, I am looking for my first full-time role as a software developer or data analyst. 
-            </p>
-            <p className='text-md text-white mt-2'>
+        <p className='text-lg md:text-2xl text-white mb-5 text-justify p-5'>
+            My name is Anshuman Gupta. I am a recent graduate from the University of Wollongong with Masters in Computer Science (Software Engineering Major). Now, I am looking for my first full-time role as a software developer or data analyst. 
+        </p>
+        <p className='text-lg md:text-2xl text-white mt-5 text-justify p-5'>
             I enjoy learning concepts and methods and applying them in a professional environment. I enjoy working in teams and adjust to different work environments with ease. I am confident that, with a little guidance and mentoring, I will be a valuable addition to your team. 
-            </p>
+        </p>
         
         </div>
         </div>
