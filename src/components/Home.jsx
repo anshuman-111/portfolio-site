@@ -16,11 +16,11 @@ const Home = () => {
 
                 <h2 
                 className='text-4xl sm:text-7xl font-bold text-white px-4 my-4'> 
-                Data Analyst
+                Full-Stack Developer 
                 </h2>
                 <h2 
                 className='text-4xl sm:text-7xl font-bold text-white px-4 my-4'> 
-                Full-Stack Developer 
+                Data Analyst
                 </h2>
                 <p 
                 className=' text-gray-400 py-4 max-w-md px-4'></p>

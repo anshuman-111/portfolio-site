@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
 
         {nav && (
-            <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-slate-600 text-gray-500'>
+            <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-slate-600 text-black'>
             {links.map(({id, link}) => (
                 <Link 
                 onClick={()=>setNav(false)}
@@ -61,7 +61,7 @@ const Navbar = () => {
                 smooth
                 duration={500}
                 >
-                <li key={id} className='cursor-pointer py-6 px-4 text-4xl'>{link}</li>
+                <li key={id} className='cursor-pointer my-6 w-64 text-center py-6 px-4 bg-transparent text-white hover:bg-green-200 hover:text-black duration-300 rounded-lg text-3xl'>{link}</li>
                 </Link>
             ))}
         </ul>

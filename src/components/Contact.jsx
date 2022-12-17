@@ -8,7 +8,7 @@ const Contact = () => {
             <p className='text-4xl mt-4 border-b-4 border-gray-500 font-bold inline'> Contact </p>
         </div>
         <div className='flex justify-center items-center'>
-            <form action="" className='flex flex-col w-full md:w-1/2'>
+            <form action="https://getform.io/f/cc6aa525-099d-4c91-9491-8005bd7f7012" method='POST' className='flex flex-col w-full md:w-1/2'>
             <input 
                 type="text" 
                 required 
@@ -33,7 +33,7 @@ const Contact = () => {
                 rows="10"
                 className='p-2 bg-transparent border-2 rounded-md text-white foucs:outline-none'
                 />
-                <button className='bg-gradient-to-b from-blue-300 to-blue-500 rounded-lg px-8 py-3 mt-6 mb-0 mx-auto flex items-center hover:scale-110 duration-300 hover:text-black' type="submit" name="submit"> Submit </button>
+                <button className='bg-gradient-to-b from-blue-300 to-blue-500 rounded-lg px-8 py-3 mt-6 mb-0 mx-auto flex items-center hover:scale-110 duration-300 hover:text-black' type="submit"> Submit </button>
             </form>
         </div>
         </div>
