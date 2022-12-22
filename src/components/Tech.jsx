@@ -1,15 +1,10 @@
 import React from 'react'
 import { FaCss3, FaGit, FaHtml5, FaPython } from 'react-icons/fa'
 import { SiMysql } from 'react-icons/si'
-import { ImHtmlFive } from 'react-icons/im'
-import { DiCss3 } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa'
-import { FaDocker } from 'react-icons/fa'
-import { FaAws } from 'react-icons/fa'
-import { DiGit } from 'react-icons/di'
 import { SiJavascript } from 'react-icons/si'
 import { SiTailwindcss } from 'react-icons/si'
-import { DiLinux } from 'react-icons/di'
+
 
 
 /* import react_logo from '../assets/reactlogo.png'

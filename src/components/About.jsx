@@ -9,10 +9,13 @@ const About = () => {
         </div>
         <div className='mt-5'>
         <p className='text-lg md:text-2xl text-white mb-5 text-justify p-5'>
-            My name is Anshuman Gupta. I am a recent graduate from the University of Wollongong with Masters in Computer Science (Software Engineering Major). Now, I am looking for my first full-time role as a software developer or data analyst. 
+        My name is Anshuman Gupta. I am a recent graduate of the University of Wollongong with a Master in Computer Science (Software Engineering Major). I am looking for my first full-time role as a software developer or data analyst.  
         </p>
         <p className='text-lg md:text-2xl text-white mt-5 text-justify p-5'>
-            I enjoy learning concepts and methods and applying them in a professional environment. I enjoy working in teams and adjust to different work environments with ease. I am confident that, with a little guidance and mentoring, I will be a valuable addition to your team. 
+        I am a quick learner and I enjoy learning new concepts and methods and applying them in a professional setting. I am and always have been, a team player and am capable of adjusting to different work environments with ease. Being a business undergraduate, I am constantly honing my communication and collaboration skills. 
+        </p>
+        <p className='text-lg md:text-2xl text-white mt-5 text-justify p-5'>
+        I currently work in a customer facing role at a fine dining restaurant. Although my current occupation is technically unrelated, it has allowed me to practice and improve my communication skills and understand customer service. I am confident that with a little guidance and mentoring, I will be a valuable addition to your team.
         </p>
         
         </div>

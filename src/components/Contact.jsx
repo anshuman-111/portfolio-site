@@ -1,6 +1,42 @@
 import React from 'react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import {TfiEmail} from "react-icons/tfi";
+import { CgFileDocument } from 'react-icons/cg';
 
 const Contact = () => {
+  const links = [ 
+    { 
+        id: 1,
+        child: (<>
+            <FaLinkedin size={30}/>
+            </>),
+            href: "https://www.linkedin.com/in/anshumangupta1997/",
+            style: 'rounded-tr-md'
+    },
+    { 
+        id: 2,
+        child: (<>
+            <FaGithub size={30}/>
+            </>),
+            href: "https://github.com/anshuman-111",
+    },
+    { 
+        id: 3,
+        child: (<>
+            <TfiEmail size={30}/>
+            </>),
+            href: "mailto:anshuman11197@gmail.com",
+    },
+    { 
+        id: 4,
+        child: (<>
+            <CgFileDocument size={30}/>
+            </>),
+            href: "/resume.pdf",
+            style: 'rounded-br-md'
+    },
+]
+
   return (
     <div name="Contact" className='bg-gradient-to-b p-4 from-black to-slate-600 w-full h-screen text-white'>
         <div className='max-w-screen-lg mx-auto p-6 flex flex-col justify-center w-3/4 h-full rounded-2xl text-white bg-transparent'>
