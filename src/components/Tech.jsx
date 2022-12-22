@@ -47,45 +47,33 @@ const Tech = () => {
         },
         {
             id: 4,
-            src: <FaDocker size={50}/>,
-            title: 'Docker',
-            style: 'shadow-blue-600'
-        },
-        {
-            id: 5,
-            src: <DiLinux size={50}/>,
-            title: 'Linux',
-            style: 'shadow-yellow-600'
-        },
-        {
-            id: 5,
             src: <SiTailwindcss size={50}/>,
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
         {
-            id: 6,
+            id: 5,
             src: <FaHtml5 size={50}/>,
             title: 'HTML',
             style: 'shadow-orange-500'
         },
         {
-            id: 7,
+            id: 6,
             src: <FaCss3 size={50}/>,
             title: 'CSS',
             style: 'shadow-sky-500'
         },
         {
-            id: 8,
+            id: 7,
             src: <FaGit size={50}/>,
             title: 'Git',
             style: 'shadow-orange-600'
         },
         {
-            id: 9,
+            id: 8,
             src: <FaReact size={50}/>,
             title: 'React',
-            style: 'shadow-blue-800'
+            style: 'shadow-blue-200'
         },
     ]
 
