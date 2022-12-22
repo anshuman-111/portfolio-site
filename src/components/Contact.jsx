@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <div name="Contact" className='bg-gradient-to-b p-4 from-black to-slate-600 w-full h-screen text-white'>
         <div className='max-w-screen-lg mx-auto p-6 flex flex-col justify-center w-3/4 h-full rounded-2xl text-white bg-transparent'>
-        <div className='pb-8 text-center mt-48'>
+        <div className='pb-8 text-center md:mt-20 mt-72'>
             <p className='text-4xl mt-4 border-b-4 border-gray-500 font-bold inline'> Contact </p>
         </div>
         <div className='flex justify-center items-center'>
