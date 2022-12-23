@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e3ef473.css",
+    "main.js": "/static/js/main.6bb12d19.js",
+    "static/media/survey_data_report.pdf": "/static/media/survey_data_report.e5969ebf6ea5e9bd9f52.pdf",
+    "static/media/Flatmates.pdf": "/static/media/Flatmates.daaba23da6e57d794ff2.pdf",
+    "static/media/invbuddy.png": "/static/media/invbuddy.b2fc098da94c1a7330ac.png",
+    "static/media/sdc.png": "/static/media/sdc.da6b4cec440230fcc09b.png",
+    "static/media/flatmates_logo.jpeg": "/static/media/flatmates_logo.1fd2ebd38d8cc6c42139.jpeg",
+    "index.html": "/index.html",
+    "main.6e3ef473.css.map": "/static/css/main.6e3ef473.css.map",
+    "main.6bb12d19.js.map": "/static/js/main.6bb12d19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e3ef473.css",
+    "static/js/main.6bb12d19.js"
+  ]
+}
