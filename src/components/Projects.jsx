@@ -20,14 +20,14 @@ const Projects = () => {
       id: 2,
       src: fmda,
       alt: "Flatmates Data Web Scraper",
-      url: "/Flatmates.html",
+      url: "/Flatmates.pdf",
       giturl: "https://github.com/anshuman-111/flatmates-data"
     },
     {
       id: 3,
       src: sdc,
       alt: "Survey Dataset Cleaning",
-      url: "/survey_data_report.html",
+      url: "/survey_data_report.pdf",
       giturl: "https://github.com/anshuman-111/data-cleaning"
     }
   ]
