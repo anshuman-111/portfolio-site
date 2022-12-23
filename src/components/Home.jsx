@@ -24,7 +24,7 @@ const Home = () => {
                 </h2>
                 <p 
                 className=' text-gray-400 py-4 max-w-md px-4'>
-                Recent computer science graduate keen on building scalable web applications and analyzing data.
+                Recent computer science graduate keen on building scalable web applications.
                 </p>
                 <p 
                 className=' text-gray-400 py-4 max-w-md px-4'>
