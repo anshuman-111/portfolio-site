@@ -2,7 +2,8 @@ import React from 'react'
 import fmda from '../assets/flatmates_logo.jpeg'
 import invbuddy from '../assets/invbuddy.png'
 import sdc from '../assets/sdc.png'
-
+import sdc_url from '../assets/survey_data_report.pdf'
+import fmda_url from '../assets/Flatmates.pdf'
 
 
 
@@ -20,14 +21,14 @@ const Projects = () => {
       id: 2,
       src: fmda,
       alt: "Flatmates Data Web Scraper",
-      url: "/Flatmates.pdf",
+      url: fmda_url,
       giturl: "https://github.com/anshuman-111/flatmates-data"
     },
     {
       id: 3,
       src: sdc,
       alt: "Survey Dataset Cleaning",
-      url: "/survey_data_report.pdf",
+      url: sdc_url,
       giturl: "https://github.com/anshuman-111/data-cleaning"
     }
   ]
