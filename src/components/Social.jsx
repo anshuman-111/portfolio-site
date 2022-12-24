@@ -35,7 +35,7 @@ const Social = () => {
             child: (<>
                 Resume <CgFileDocument size={30}/>
                 </>),
-                href: "/resume.pdf",
+                href: "/Anshuman_Gupta.pdf",
                 style: 'rounded-br-md'
         },
     ]
